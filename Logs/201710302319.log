@@ -1,0 +1,3 @@
+2017-10-30 23:19:51,900 - BasePage - INFO - 打开网页链接：https://www.baidu.com
+2017-10-30 23:19:57,020 - BasePage - INFO - 执行截图并保存操作
+2017-10-30 23:20:02,352 - BasePage - INFO - 退出浏览器

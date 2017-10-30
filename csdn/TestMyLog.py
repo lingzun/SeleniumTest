@@ -6,9 +6,10 @@ from test1.logger import Logger
 mylogger=Logger(logger='TestMyLog').getLog()#从loger.py模块中获取已经定义好的mylogger对象。
 class TestMyLog(object):
     def print_log(self):
-        options=webdriver.ChromeOptions()
-        options.add_argument('disable-infobars')
-        driver=webdriver.Chrome(chrome_options=options)
+        # options=webdriver.ChromeOptions()
+        # options.add_argument('disable-infobars')
+        # driver=webdriver.Chrome(chrome_options=options)
+        driver = webdriver.Firefox()
         driver.maximize_window()
         driver.implicitly_wait(8)
         mylogger.info("打开浏览器")
